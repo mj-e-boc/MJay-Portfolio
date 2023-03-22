@@ -161,4 +161,8 @@ header nav {
 .project1 p {
   margin-left: 8%;
   margin-right: 10%;
+  color: #344563;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
 }
