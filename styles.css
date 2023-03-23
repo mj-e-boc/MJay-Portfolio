@@ -190,6 +190,7 @@ button:hover {
 
 button:active {
   background-color: #2230d2;
+  color: #fff;
 }
 
 .projImg {
