@@ -129,8 +129,6 @@ I would like to thank Microverse alumni for inspiring me to start coding
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
 - **[What to expect in the future ? ]**
 
   - [Interactive projects added on the projects section]
