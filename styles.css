@@ -202,7 +202,7 @@ button:active {
 
 .abtme {
   background-color: #fff;
-  padding: 10% 8%;
+  padding: 10% 8% 40% 8%;
   border-top-right-radius: 50px;
   margin-top: 110%;
 }
@@ -271,3 +271,5 @@ button:active {
   border-bottom: 1px solid  #dfe1e6;
   padding-bottom: 5%;
 }
+
+/* contact us */
