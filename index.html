@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>RonaldMjonono Porftolio</title>
+    <title>RonaldMjonono Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -14,7 +14,18 @@
         <div class="logo">
             <a href="#"> <h1>M Jay</h1></a>
           </div>
-        <nav>
+          <nav class="desktop">
+<ul class="desktopnav">
+
+  <li>
+    <a href="#projects">Portfolio</a>
+    
+  </li>
+  <li><a href="#abtme">About</a></li>
+  <li><a href="#contactme">Contact</a></li>
+</ul>
+          </nav>
+        <nav class="mobile">
           
           
             <div class="bar"></div>
@@ -32,7 +43,7 @@
           me.
         </p>
         <h3>LET'S CONNECT</h3>
-        <ul>
+        <ul class="icons">
           <li>
             <a href="https://twitter.com/MjononoRonald"
               ><img src="./Images/icons/twitter.svg" alt="twittericon"
@@ -60,43 +71,51 @@
       </section>
     </div>
     <!-- ProjectsSection -->
-    <section class="projectsContainer">
+    <section class="projectsContainer" id="projects">
         <div class="project1">
           <div class="projImg">
-            <img src="./Images/mobileprojects/project1Img.svg" alt="project1img" />
+            <img class="mobileimg" src="./Images/mobileprojects/project1Img.svg" alt="project1img" />
+            <img class="desktop1img" src="./Images/desktop/image1.svg" alt="">
           </div>
-          <h3>Tonic</h3>
-          <ul class="a">
-            <li>CANOPY</li>
-            <li>
-              <img src="./Images/icons/CounterDot.svg" alt="counterimg" />
-            </li>
-            <li>Back EndDev</li>
-            <li>
-              <img src="./Images/icons/CounterDot.svg" alt="counterimg" />
-            </li>
-            <li>2015</li>
-          </ul>
-          <p>
-              A daily selection of privately personalized reads; no accounts or sign-ups required.
-          </p>
-          <ul class="b">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-          </ul>
-          <button>
-              See project
-          </button>
+          <div class="proj1text">
+
+            <h3>Tonic</h3>
+            <ul class="a">
+              <li>CANOPY</li>
+              <li>
+                <img src="./Images/icons/CounterDot.svg" alt="counterimg" />
+              </li>
+              <li>Back EndDev</li>
+              <li>
+                <img src="./Images/icons/CounterDot.svg" alt="counterimg" />
+              </li>
+              <li>2015</li>
+            </ul>
+            <p>
+                A daily selection of privately personalized reads; no accounts or sign-ups required.
+            </p>
+            <ul class="b">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+            <button>
+                See project
+            </button>
+
+          </div>
+          
         </div>
       </div>
   
   <!-- project 2 -->
   <div class="project1" class="pro2">
       <div class="projImg">
-        <img src="./Images/mobileprojects/project2Img.svg" alt="project2img" />
+        <img class="mobileimg" src="./Images/mobileprojects/project2Img.svg" alt="project2img" />
+        <img class="desktop2img" src="./Images/desktop/image2.svg" alt="">
       </div>
-      <h3>Multi-Post
+      <div class="proj2text">
+        <h3>Multi-Post
           Stories</h3>
       <ul class="a">
         <li>CANOPY</li>
@@ -120,72 +139,84 @@
       <button>
           See project
       </button>
+      </div>
+      
     </div>
   </div>
   
   <!-- project 3 -->
   <div class="project1" class="pro3">
       <div class="projImg">
-        <img src="./Images/mobileprojects/project3Img.svg" alt="projec3image" />
+        <img class="mobileimg" src="./Images/mobileprojects/project3Img.svg" alt="projec3image" />
+        <img class="desktop1img" src="./Images/desktop/image3.svg" alt="">
+        
       </div>
-      <h3>Tonic</h3>
-      <ul class="a">
-        <li>CANOPY</li>
-        <li>
-          <img src="./Images/icons/CounterDot.svg" alt="counterimg" />
-        </li>
-        <li>Back EndDev</li>
-        <li>
-          <img src="./Images/icons/CounterDot.svg" alt="counterimg" />
-        </li>
-        <li>2015</li>
-      </ul>
-      <p>
-          A daily selection of privately personalized reads; no accounts or sign-ups required.
-      </p>
-      <ul class="b">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-      </ul>
-      <button>
-          See project
-      </button>
+      <div class="proj1text">
+        <h3>Tonic</h3>
+        <ul class="a">
+          <li>CANOPY</li>
+          <li>
+            <img src="./Images/icons/CounterDot.svg" alt="counterimg" />
+          </li>
+          <li>Back EndDev</li>
+          <li>
+            <img src="./Images/icons/CounterDot.svg" alt="counterimg" />
+          </li>
+          <li>2015</li>
+        </ul>
+        <p>
+            A daily selection of privately personalized reads; no accounts or sign-ups required.
+        </p>
+        <ul class="b">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+        <button>
+            See project
+        </button>
+      </div>
+      
     </div>
   </div>
   <!-- project 4 -->
   <div class="project1" class="pro4">
       <div class="projImg">
-        <img src="./Images/mobileprojects/project4Img.svg" alt="project4img" />
+        <img class="mobileimg" src="./Images/mobileprojects/project4Img.svg" alt="project4img" />
+        <img class="desktop2img" src="./Images/desktop/image4.svg" alt="">
       </div>
-      <h3>Tonic</h3>
-      <ul class="a">
-        <li>CANOPY</li>
-        <li>
-          <img src="./Images/icons/CounterDot.svg" alt="counterimg" />
-        </li>
-        <li>Back EndDev</li>
-        <li>
-          <img src="./Images/icons/CounterDot.svg" alt="counterimg" />
-        </li>
-        <li>2015</li>
-      </ul>
-      <p>
-          A daily selection of privately personalized reads; no accounts or sign-ups required.
-      </p>
-      <ul class="b">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-      </ul>
-      <button>
-          See project
-      </button>
+      <div class="proj2text">
+        <h3>Tonic</h3>
+        <ul class="a">
+          <li>CANOPY</li>
+          <li>
+            <img src="./Images/icons/CounterDot.svg" alt="counterimg" />
+          </li>
+          <li>Back EndDev</li>
+          <li>
+            <img src="./Images/icons/CounterDot.svg" alt="counterimg" />
+          </li>
+          <li>2015</li>
+        </ul>
+        <p>
+            A daily selection of privately personalized reads; no accounts or sign-ups required.
+        </p>
+        <ul class="b">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+        <button>
+            See project
+        </button>
+      </div>
+      
     </div>
 </section>
   <!-- about section -->
-<section class="abtme">
-    <h3>
+<section class="abtme" id="abtme">
+    <div class="abtmetextitems">
+      <h3>
         About Myself
       </h3>
       <p>
@@ -221,6 +252,7 @@
             <button class="getresume">
                 Get my resume
             </button>
+    </div>
             <ul class="lans">
                 <li>
                     Languages
@@ -231,6 +263,9 @@
                 
                 </li>
                 
+            </ul>
+            <ul class="desktopIcons">
+<img src="./Images/imageicons/javascript.svg" alt="jsicon"><img src="./Images/imageicons/html.svg" alt="htmlicon"><img src="./Images/imageicons/css.svg" alt="cssicon">
             </ul>
             <ul class="lansIcons">
                 <li>
