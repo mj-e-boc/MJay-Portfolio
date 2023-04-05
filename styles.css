@@ -171,6 +171,18 @@ nav {
   color: #7a869a;
 }
 
+form button {
+  margin-left: 9%;
+  padding: 2%;
+  width: 35%;
+  border-radius: 10px;
+  border: none;
+  color: #396df2;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+}
+
 .project1 button {
   padding: 3%;
   margin-left: 8%;
@@ -203,7 +215,7 @@ button:active {
 .abtme {
   background-color: #fff;
   padding: 20% 8% 40% 8%;
-  border-top-right-radius: 50px;
+  border-top-right-radius: 53px;
   margin-top: 110%;
 }
 
@@ -271,39 +283,44 @@ button:active {
   border-bottom: 1px solid  #dfe1e6;
   padding-bottom: 5%;
 }
+
 /* contactme */
 
 #contactme {
   border-top-left-radius: 60px;
-  background-color:#6070FF;
-  background-image:url(./Images/background/contact\ form\ shapes-mobile.svg) ;
+  background-color: #6070ff;
+  background-image: url(./Images/background/contact\ form\ shapes-mobile.svg);
   background-size: 62%;
   background-position: 100% 15%;
   background-repeat: no-repeat;
-  padding: 20% 0 40% 0 ;
+  padding: 20% 0 40% 0;
 }
+
 .contactheader {
   text-align: center;
   font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 52px;
-color: #fff;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
 }
-.contactpara{
+
+.contactpara {
   width: 80%;
-  margin: 8% auto ;
+  margin: 8% auto;
   text-align: center;
-font-style: normal;
+  font-style: normal;
   font-weight: 400;
   font-size: 20px;
-color: #fff;
-margin-bottom: 8%;
+  color: #fff;
+  margin-bottom: 8%;
 }
-#contactme form{
+
+#contactme form {
   display: grid;
   gap: 10%;
 }
+
 input,
 textarea {
   width: 80%;
@@ -311,24 +328,16 @@ textarea {
   border-radius: 5px;
   border: none;
 }
-textarea{
+
+textarea {
   height: 170px;
 }
-input{
-  height:48px;
+
+input {
+  height: 48px;
 }
-form button {
-  margin-left: 9%;
-  padding: 2%;
- width: 35%;
-  border-radius: 10px;
-  border: none;
-  color: #396DF2;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-}
-form button:active{
-  background-color: #2230D2;
+
+form button:active {
+  background-color: #2230d2;
   color: #fff;
 }
