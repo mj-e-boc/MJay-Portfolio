@@ -216,10 +216,7 @@ button:active {
   background-color: #fff;
   padding: 20% 8% 40% 8%;
   border-top-right-radius: 53px;
-
-  padding: 10% 8% 40% 8%;
   border-top-right-radius: 50px;
-
   margin-top: 110%;
 }
 
@@ -346,4 +343,3 @@ form button:active {
   background-color: #2230d2;
   color: #fff;
 }
-
