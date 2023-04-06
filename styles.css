@@ -2,7 +2,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #e5e5e5;
-  padding-top: 0;
+  padding: 0;
   margin: 0;
 }
 
@@ -20,6 +20,8 @@ a {
 
 .frontpage section {
   background-image: url(./Images/background/header-shapes\ mobile@2x.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
   margin: 0 3% 0 3%;
   padding-top: 15%;
 }
@@ -85,7 +87,7 @@ a {
   line-height: 24px;
 }
 
-.frontpage ul {
+.icons {
   list-style: none;
   display: flex;
   gap: 3%;
@@ -138,7 +140,7 @@ nav {
 
 .project1 {
   background-color: #fff;
-  margin: 0 3% 0 3%;
+  margin: 0 10% 0 10%;
   border-radius: 20px;
   border: 1px solid #dfe1e6;
   padding-bottom: 3%;
@@ -341,4 +343,166 @@ input {
 form button:active {
   background-color: #2230d2;
   color: #fff;
+}
+
+/* desktop */
+
+@media (min-width: 769px) {
+  .lans {
+    margin: 1% 0 1% 0;
+  }
+
+  .names {
+    padding-bottom: 2%;
+  }
+
+  .lans .names {
+    float: right;
+  }
+
+  .lansIcons {
+    display: none;
+  }
+
+  .frontpage section {
+    background-image: none;
+    margin: 0 20%;
+  }
+
+  .b li {
+    margin-top: 3%;
+    padding: 1%;
+  }
+
+  .desktop2img {
+    float: right;
+    margin-right: 4%;
+    padding-left: 5%;
+  }
+
+  .desktop1img {
+    float: left;
+    margin-left: 4%;
+    padding-right: 5%;
+  }
+
+  .frontpage {
+    background-image: url(./Images/background/Header\ bg@2x.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50% 50%;
+    margin-bottom: 10%;
+  }
+
+  .desktopnav {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+  }
+
+  .desktopnav a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+  }
+
+  .desktop {
+    margin-right: 15%;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  header {
+    padding-top: 0.3%;
+  }
+
+  .logo {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    margin-left: 15%;
+  }
+
+  .frontpage p {
+    width: 100%;
+  }
+
+  .frontpage section h2 {
+    width: 40%;
+  }
+
+  .mobileimg {
+    display: none;
+  }
+
+  form button {
+    width: 10%;
+    margin: auto;
+    padding: 1%;
+  }
+
+  .proj1text button {
+    margin-left: 0;
+  }
+
+  .project1 button {
+    padding: 1%;
+    margin-top: 3%;
+    width: 10%;
+    border-radius: 10px;
+    border: 1px solid #396df2;
+    color: #396df2;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .abtmetextitems {
+    float: left;
+    width: 40%;
+    margin-right: 4%;
+  }
+
+  .desktopIcons {
+    display: flex;
+    gap: 2%;
+    padding: 2% 0 3% 0;
+  }
+
+  #contactme {
+    background-image: url(./Images/background/contact\ form\ background\ shapes@2x.svg);
+    background-size: 100%;
+    background-position: 0 50%;
+    padding: 10% 0 20% 0;
+  }
+
+  #contactme p {
+    width: 35%;
+    margin: 3% auto;
+  }
+
+  input,
+  textarea {
+    width: 35%;
+    border-radius: 0;
+  }
+
+  .abtme {
+    margin-top: 30%;
+    padding: 10% 10%;
+  }
+}
+
+@media (max-width: 768px) {
+  .desktopIcons,
+  .desktopnav,
+  .desktop1img,
+  .desktop2img {
+    display: none;
+  }
 }
