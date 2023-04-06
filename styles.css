@@ -140,7 +140,7 @@ nav {
 
 .project1 {
   background-color: #fff;
-  margin: 0 3% 0 3%;
+  margin: 0 10% 0 10%;
   border-radius: 20px;
   border: 1px solid #dfe1e6;
   padding-bottom: 3%;
@@ -391,7 +391,7 @@ form button:active {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: 50% 50%;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
   }
 
   .desktopnav {
@@ -494,7 +494,7 @@ form button:active {
 
   .abtme {
     margin-top: 30%;
-    padding-top: 15%;
+    padding: 10% 10%;
   }
 }
 
