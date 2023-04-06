@@ -2,7 +2,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #e5e5e5;
-  padding-top: 0;
+  padding: 0;
   margin: 0;
 }
 
@@ -347,7 +347,7 @@ form button:active {
 
 /* desktop */
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .lans {
     margin: 1% 0 1% 0;
   }
@@ -417,7 +417,7 @@ form button:active {
   }
 
   header {
-    padding-top: 1%;
+    padding-top: 0.3%;
   }
 
   .logo {
