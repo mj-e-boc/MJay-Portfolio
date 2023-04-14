@@ -348,13 +348,22 @@ form button:active {
 /* desktop */
 
 @media (min-width: 769px) {
-  .frontpage section h3{
+  .frontpage section h3 {
     font-size: 20px;
   }
 
-  .frontpage section p{
+  .project1 p {
+    font-size: 17px;
+  }
+
+  .abtme p {
+    font-size: 18px;
+  }
+
+  .frontpage section p {
     font-size: 20px;
   }
+
   .lans {
     margin: 1% 0 1% 0;
   }
@@ -415,10 +424,6 @@ form button:active {
     color: #344563;
   }
 
-  .project1 p{
-    font-size: 17px;
-  }
-
   .desktop {
     margin-right: 15%;
   }
@@ -438,17 +443,14 @@ form button:active {
     line-height: 20px;
     margin-left: 15%;
   }
-  
-  .abtme p{
-    font-size: 18px;
+
+  .contactpara {
+    font-size: 17px;
   }
-.contactpara{
-  font-size: 17px;
-}
 
   .frontpage section h2 {
     width: 40%;
-    font-size:53px ;
+    font-size: 53px;
   }
 
   .mobileimg {
@@ -499,7 +501,7 @@ form button:active {
   #contactme p {
     width: 35%;
     margin: 3% auto;
-    font-size:20px ;
+    font-size: 20px;
   }
 
   input,
@@ -512,8 +514,9 @@ form button:active {
     margin-top: 30%;
     padding: 10% 10%;
   }
-  .header h1{
-    font-size:20px ;
+
+  .header h1 {
+    font-size: 20px;
   }
 }
 
