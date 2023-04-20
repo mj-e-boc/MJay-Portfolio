@@ -50,14 +50,14 @@ border: none;
   border-bottom-left-radius: 80px;
   padding: 0 0 20% 0;
 }
-
+/* mobile menu */
 .mobilemenu {
   position: fixed;
   top: 0;
   bottom: 0;
   left: -200%;
   right: 0;
-  background-color: rgb(37.6, 43.9, 100);
+  background-color: rgb(37.6, 43.9, 100, 0.8);
   backdrop-filter: blur(6px);
   width: 100%;
 }
