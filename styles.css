@@ -6,8 +6,41 @@ body {
   margin: 0;
 }
 
+/* modal information */
+
 a {
   text-decoration: none;
+}
+
+.modal .a{
+ list-style-type: none;
+ display: flex;
+ justify-content: flex-start;
+ margin-left: 0;
+ padding-left: 0;
+ gap: 1%;
+}
+
+.modalHeader{
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.modalHeader h2{
+  margin-right: auto;
+}
+
+.modalHeader button{
+padding: none;
+border: none;
+  background: none;
+  
+}
+
+.modalHeader button:hover{
+  background-color: #fff;
+  cursor: pointer;
 }
 
 /* front page  */
@@ -24,7 +57,7 @@ a {
   bottom: 0;
   left: -200%;
   right: 0;
-  background-color: rgb(37.6, 43.9, 100, 0.9);
+  background-color: rgb(37.6, 43.9, 100);
   backdrop-filter: blur(6px);
   width: 100%;
 }
@@ -158,6 +191,57 @@ header {
   align-items: center;
 }
 
+.modal{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding:3%;
+  background-color:#fff;
+  width: 70%;
+  border-radius: 15px;
+  z-index: 10;
+  display: block;
+}
+
+.modebuttons{
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+.modebuttons :nth-child(1){
+margin-right: auto;
+}
+
+.butmode{
+  display: flex;
+  gap: 14px;
+}
+
+.modebuttons button{
+  width: 130px;
+  color:#396DF2 ;
+
+}
+
+.modal .modebuttons button{
+  border-radius: 10px;
+  border: 1px solid #396DF2;
+}
+
+#overlay{
+  background-color: rgb(37.6%,43.9%,100%,0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  backdrop-filter: blur(10px);
+display: block;
+  
+}
+
 header h1 {
   color: #6070ff;
   font-style: normal;
@@ -202,11 +286,32 @@ nav {
   gap: 2%;
 }
 
+.b{
+  list-style-type: none;
+
+}
+
+.modal .b{
+  display: flex;
+  gap: 2%;
+  justify-content: flex-start;
+  padding-left: 0;
+  border-bottom: 1 px solid #EBECF0;
+  padding-bottom: 5%;
+  
+}
+
 .b li {
   background-color: #ebebff;
   padding: 2%;
   border-radius: 10px;
   color: #6070ff;
+}
+
+.modalImage{
+  margin: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .a li:nth-child(1) {
@@ -566,7 +671,38 @@ form button:active {
   .header h1 {
     font-size: 20px;
   }
+
+  .modal{
+    height: 80%;
+    width: 50%;
+    padding-top: 0;
+
+  }
+
+  .modalHeader h3{
+    color: #67798E;
+    font-size: 20px;
+    font-weight: normal;
+  }
+
+  .mobileModalImg{
+    display: none;
+  }
+  .desktopModalImage{
+    object-fit: cover;
+    width: 900px;
+    height: 300px;
+  }
+
+  .modaltext{
+    float: left;
+    width: 60%;
+  }
+  
+
 }
+
+/* dont show on mobile */
 
 @media (max-width: 768px) {
   .desktopIcons,
@@ -575,4 +711,15 @@ form button:active {
   .desktop2img {
     display: none;
   }
+
+  .desktopModalImage{
+    display: none;
+  }
+
+  .modebuttons{
+    border-top: 1px solid 
+    #EBECF0;
+  }
+  
+ 
 }
