@@ -118,7 +118,7 @@
                 <li>CSS</li>
                 <li>JavaScript</li>
             </ul>
-            <button type="button">
+            <button data-modal-target='modal1'type="button">
                 See project
             </button>
 
@@ -128,7 +128,8 @@
       </div>
   
   <!-- project 2 -->
-  <div class="project1 pro2">
+
+   <div class="project1 pro2">
       <div class="projImg">
         <img class="mobileimg" src="./Images/desktop/mobileprojects/project2Img.svg" alt="project2img" />
         <img class="desktop2img" src="./Images/desktop/image2.svg" alt="desktop2image">
@@ -155,7 +156,7 @@
           <li>CSS</li>
           <li>JavaScript</li>
       </ul>
-      <button type="button">
+      <button data-modal-target='modal2' type="button">
           See project
       </button>
       </div>
@@ -163,8 +164,11 @@
     </div>
   </div>
   
+
+
   <!-- project 3 -->
-  <div class="project1" class="pro3">
+
+   <div class="project1" class="pro3">
       <div class="projImg">
         <img class="mobileimg" src="./Images/desktop/mobileprojects/project3Img.svg" alt="projec3image" />
         <img class="desktop1img" src="./Images/desktop/image3.svg" alt="desktop2">
@@ -191,14 +195,17 @@
             <li>CSS</li>
             <li>JavaScript</li>
         </ul>
-        <button type = button>
+        <button data-modal-target='modal3' type = button>
             See project
         </button>
       </div>
       
     </div>
-  </div>
+  </div> 
+
+
   <!-- project 4 -->
+
   <div class="project1" class="pro4">
       <div class="projImg">
         <img class="mobileimg" src="./Images/desktop/mobileprojects/project4Img.svg" alt="project4img" />
@@ -225,12 +232,12 @@
             <li>CSS</li>
             <li>JavaScript</li>
         </ul>
-        <button type="button">
+        <button data-modal-targert='modal4' type="button">
             See project
         </button>
       </div>
       
-    </div>
+    </div> -->
 </section>
   <!-- about section -->
 <section class="abtme" id="abtme">
@@ -353,13 +360,16 @@ Get in touch
             </button>
           </form>
         </section>
+<!-- popup below -->
+
         <div class="modal" id="modal">
 
 <div class="modalHeader">
 <h2>
   Modal Header
 </h2>
-<button class="close Button"><h3>&times;</h3></button>
+<!-- use of javascript selectors -->
+<button class="close Button" data-close-button="closeButton"><h3>&times;</h3></button>
 </button>
 </div>
 <ul class="a">
@@ -408,7 +418,14 @@ Get in touch
 </div>
 </div>
         </div>
+
+        
+
+        <!-- popup above -->
+
+
         <div id="overlay"></div>
-        <script src="menu.js"></script>
+        <script type="module" src="menu.js"></script>
+        <script src="popup.js"></script>
   </body>
 </html>
